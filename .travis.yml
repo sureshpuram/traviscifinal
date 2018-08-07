@@ -1,0 +1,16 @@
+language: python
+
+python:
+  - 2.7
+script:
+  - python helloworld.py
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+ #github-token: 9e4a5417b0e1600cb90696ef926df5c9aafb11a2
+ github-token: $GITHUB_TOKEN
+  keep-history: true
+  on:
+    branch: master
+    local-dir: ./index.html
