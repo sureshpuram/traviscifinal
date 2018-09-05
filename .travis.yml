@@ -11,12 +11,12 @@ deploy:
   on:
     branch: master
 
-deploy:
- provider: pages
- local-dir: index.html
-   skip-cleanup: true
+#deploy:
+ #provider: pages
+ #local-dir: index.html
+  # skip-cleanup: true
  #github-token: 9e4a5417b0e1600cb90696ef926df5c9aafb11a2
- github-token: $GITHUB_TOKEN
-   keep-history: true
-  on:
-   branch: master
+ #github-token: $GITHUB_TOKEN
+  # keep-history: true
+  #on:
+  # branch: master
