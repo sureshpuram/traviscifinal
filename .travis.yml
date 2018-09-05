@@ -13,4 +13,3 @@ deploy:
   on:
    branch: master
     #local-dir: ./index.html
-    
