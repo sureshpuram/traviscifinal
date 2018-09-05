@@ -4,6 +4,13 @@ python:
   - 2.7
 script:
   - python helloworld.py
+
+deploy:
+  provider: script
+  script: deploy.sh
+  on:
+    branch: master
+
 deploy:
  provider: pages
  local-dir: index.html
