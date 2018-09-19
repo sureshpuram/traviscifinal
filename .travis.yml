@@ -13,11 +13,11 @@ script:
   #on:
    # branch: master
 
-deploy:
- provider: pages
+#deploy:
+ #provider: pages
  #local-dir: index.html
-   skip-cleanup: true
- github-token: $GITHUB_TOKEN
-   keep-history: true
-  on:
-   branch: master
+  # skip-cleanup: true
+ #github-token: $GITHUB_TOKEN
+  # keep-history: true
+  #on:
+   #branch: master
