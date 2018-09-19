@@ -5,6 +5,13 @@ python:
 script:
   - python helloworld.py
 
+
+addons:
+  sauce_connect:
+    username: "sureshpuram"
+    access_key: "d7464e6e-54a1-4615-8d21-80e241d5997b"
+    
+
 #deploy:
  # provider: script
   #skip-cleanup: true
